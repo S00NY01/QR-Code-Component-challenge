@@ -13,7 +13,7 @@ Mobile:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/S00NY01/QR-Code-Component-challenge)
-<!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+- Live Site URL: [Add live site URL here](https://s00ny01.github.io/QR-Code-Component-challenge/)
 
 ## My process
 
