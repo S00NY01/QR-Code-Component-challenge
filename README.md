@@ -4,9 +4,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 Desktop:
-![Design preview for the QR code component challenge](./Design/Desktop-Screenshot.png)
+![Design preview for the QR code component challenge](./Design/Desktop2026-06-23%20110224.png)
 Mobile:
-![Design preview for the QR code component challenge](./Design/Mobile-Screenshot.png)
+![Design preview for the QR code component challenge](./Design/Mobile2026-06-23%20110408.png)
 
 
 
