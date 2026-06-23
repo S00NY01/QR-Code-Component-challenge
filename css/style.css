@@ -35,9 +35,8 @@
 } */
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
 }
 
 :root {
@@ -45,7 +44,7 @@
     --Slate-900: hsl(218, 44%, 22%);
     --Slate-300: hsl(212, 45%, 89%);
 
-    --border-radius: 15px;
+    --border-radius: 20px;
 
     --font-size: 15px;
 
@@ -59,36 +58,41 @@ body {
     justify-content: center;
     align-items: center;
     font-family: var(--Outfit);
+    margin: 0;
 }
 
 .card {
     background-color: white;
     width: 320px;
     border-radius: var(--border-radius);
-    padding: 20px;
+    padding: 16px 16px 40px 16px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 picture img {
     width: 100%;
-    border-radius: var(--border-radius);
-}
-
-.card-content {
-    margin: 15px auto;
+    border-radius: calc(var(--border-radius) - 10px);
 }
 
 .card-content h3 {
     color: var(--Slate-900);
+    font-size: 22px;
     font-weight: 700;
-    width: 80%;
-    margin: auto;
+    line-height: 28px;
+    margin-top: 24px;
+    margin-bottom: 0;
 }
 
 .card-content p {
     color: var(--Slate-500);
     font-size: var(--font-size);
     font-weight: 400;
-    width: 90%;
-    margin: 15px auto 0;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 0;
 }
