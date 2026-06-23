@@ -1,4 +1,4 @@
-body {
+/* body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -32,4 +32,63 @@ body {
     font-size: 15px;
     color: hsl(216, 15%, 48%);
     font-weight: 400;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Slate-500: hsl(216, 15%, 48%);
+    --Slate-900: hsl(218, 44%, 22%);
+    --Slate-300: hsl(212, 45%, 89%);
+
+    --border-radius: 15px;
+
+    --font-size: 15px;
+
+    --Outfit: "Outfit", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: var(--Slate-300);
+    justify-content: center;
+    align-items: center;
+    font-family: var(--Outfit);
+}
+
+.card {
+    background-color: white;
+    width: 320px;
+    border-radius: var(--border-radius);
+    padding: 20px;
+    text-align: center;
+}
+
+picture img {
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+.card-content {
+    margin: 15px auto;
+}
+
+.card-content h3 {
+    color: var(--Slate-900);
+    font-weight: 700;
+    width: 80%;
+    margin: auto;
+}
+
+.card-content p {
+    color: var(--Slate-500);
+    font-size: var(--font-size);
+    font-weight: 400;
+    width: 90%;
+    margin: 15px auto 0;
 }
